@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">T1ger Notes</string>
+
+    <string name="brand_title">FORTUNA T1GER</string>
+    <string name="brand_subtitle">SPIN YOUR LUCK</string>
+    <string name="loading">LOADING</string>
+
+    <string name="play">PLAY</string>
+    <string name="spin">SPIN</string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="next_level">NEXT LEVEL</string>
+    <string name="menu">MENU</string>
+    <string name="levels">LEVELS</string>
+    <string name="bonus">BONUS</string>
+    <string name="rewards">REWARDS</string>
+    <string name="awards">AWARDS</string>
+    <string name="stats">STATS</string>
+    <string name="claim">CLAIM</string>
+    <string name="unlock">UNLOCK</string>
+    <string name="owned">OWNED</string>
+    <string name="resume">RESUME</string>
+    <string name="reset">RESET</string>
+    <string name="cancel">CANCEL</string>
+    <string name="reset_progress">RESET PROGRESS</string>
+    <string name="come_back_tomorrow">COME BACK TOMORROW</string>
+
+    <string name="menu_tagline">TAP THE LEVER - MATCH THREE CHARMS</string>
+    <string name="tap_spin_hint">PULL THE LEVER TO BEGIN</string>
+    <string name="paused">PAUSED</string>
+    <string name="paused_hint">The reels are on hold. Resume the round or return to the menu.</string>
+    <string name="reset_hint">This clears coins, levels, rewards and statistics.</string>
+    <string name="spin_more_hint">SPIN MORE TO EARN COINS</string>
+    <string name="no_spins_hint">NO SPINS YET - PLAY A ROUND</string>
+    <string name="new_best">NEW BEST SCORE</string>
+    <string name="result_win">GREAT FORTUNE</string>
+    <string name="result_lose">NO LUCK</string>
+
+    <string name="level_map_title">LEVEL MAP</string>
+    <string name="daily_bonus_title">DAILY BONUS</string>
+    <string name="rewards_title">REWARDS</string>
+    <string name="achievements_title">AWARDS</string>
+    <string name="statistics_title">STATISTICS</string>
+    <string name="settings_title">SETTINGS</string>
+    <string name="symbol_luck">SYMBOL LUCK</string>
+
+    <string name="label_level">LEVEL</string>
+    <string name="label_best">BEST</string>
+    <string name="label_score">SCORE</string>
+    <string name="label_coins">COINS</string>
+    <string name="label_target">TARGET</string>
+    <string name="label_spins">SPINS</string>
+
+    <string name="bet_x1">x1</string>
+    <string name="bet_x2">x2</string>
+    <string name="bet_x3">x3</string>
+
+    <string name="level_format">LEVEL %1$d</string>
+    <string name="target_format">TARGET %1$s</string>
+    <string name="day_format">DAY %1$d</string>
+    <string name="counter_format">%1$d/%2$d</string>
+    <string name="gain_format">+%1$d</string>
+
+    <string name="setting_sound">SOUND</string>
+    <string name="setting_vibration">VIBRATION</string>
+    <string name="setting_fast">FAST ANIMATIONS</string>
+    <string name="settings_footer">FORTUNA T1GER - OFFLINE ARCADE - V 1.0</string>
+
+    <string name="symbol_tiger">GOLDEN TIGER</string>
+    <string name="symbol_ingot">GOLD INGOT</string>
+    <string name="symbol_coin">LUCKY COIN</string>
+    <string name="symbol_lantern">PAPER LANTERN</string>
+    <string name="symbol_bamboo">BAMBOO CHARM</string>
+
+    <string name="reward_jade_lantern">Jade Lantern</string>
+    <string name="reward_lucky_coin">Lucky Coin</string>
+    <string name="reward_bamboo_charm">Bamboo Charm</string>
+    <string name="reward_gold_ingot">Gold Ingot</string>
+    <string name="reward_tiger_eye">Tiger Eye</string>
+    <string name="reward_golden_cabinet">Golden Cabinet</string>
+
+    <string name="award_first_spin">FIRST SPIN</string>
+    <string name="award_first_spin_desc">Spin the reels once</string>
+    <string name="award_lucky_three">LUCKY THREE</string>
+    <string name="award_lucky_three_desc">Land three winning lines</string>
+    <string name="award_tiger_eye">TIGER EYE</string>
+    <string name="award_tiger_eye_desc">Match three golden tigers</string>
+    <string name="award_coin_hoarder">COIN HOARDER</string>
+    <string name="award_coin_hoarder_desc">Earn 500 coins in total</string>
+    <string name="award_level_five">LEVEL FIVE</string>
+    <string name="award_level_five_desc">Reach level five</string>
+    <string name="award_perfect_round">PERFECT ROUND</string>
+    <string name="award_perfect_round_desc">Finish a level with three stars</string>
+    <string name="award_hot_streak">HOT STREAK</string>
+    <string name="award_hot_streak_desc">Win three spins in a row</string>
+    <string name="award_hundred_spins">HUNDRED SPINS</string>
+    <string name="award_hundred_spins_desc">Spin the reels one hundred times</string>
+
+    <string name="stat_total_spins">TOTAL SPINS</string>
+    <string name="stat_best_score">BEST SCORE</string>
+    <string name="stat_line_wins">LINE WINS</string>
+    <string name="stat_levels_done">LEVELS DONE</string>
+    <string name="stat_coins_earned">COINS EARNED</string>
+    <string name="stat_longest_streak">LONGEST STREAK</string>
+
+    <string name="state_spinning">spinning</string>
+    <string name="state_ready">ready</string>
+    <string name="state_active">selected</string>
+    <string name="state_inactive">not selected</string>
+    <string name="state_locked">locked</string>
+    <string name="state_unlocked">unlocked</string>
+    <string name="state_claimed">claimed</string>
+    <string name="state_owned">owned</string>
+    <string name="state_not_enough">locked, not enough coins</string>
+    <string name="state_on">on</string>
+    <string name="state_off">off</string>
+
+    <string name="cd_logo">Fortuna Tiger emblem</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_home">Back to menu</string>
+    <string name="cd_pause">Pause the round</string>
+    <string name="cd_settings">Open settings</string>
+    <string name="cd_level_medallion">Level %1$d, %2$d of 3 stars</string>
+</resources>

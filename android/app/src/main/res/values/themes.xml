@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.T1gerNotes" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#2A0F06</item>
+    </style>
+</resources>

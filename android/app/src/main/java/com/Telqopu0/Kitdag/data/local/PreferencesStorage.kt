@@ -1,0 +1,43 @@
+package com.Telqopu0.Kitdag.data.local
+
+import android.content.Context
+import android.content.SharedPreferences
+
+class PreferencesStorage(context: Context) {
+
+    private val prefs: SharedPreferences =
+        context.getSharedPreferences(STORE_NAME, Context.MODE_PRIVATE)
+
+    fun readInt(key: String, fallback: Int): Int = prefs.getInt(key, fallback)
+
+    fun writeInt(key: String, value: Int) {
+        prefs.edit().putInt(key, value).apply()
+    }
+
+    fun readLong(key: String, fallback: Long): Long = prefs.getLong(key, fallback)
+
+    fun writeLong(key: String, value: Long) {
+        prefs.edit().putLong(key, value).apply()
+    }
+
+    fun readBoolean(key: String, fallback: Boolean): Boolean = prefs.getBoolean(key, fallback)
+
+    fun writeBoolean(key: String, value: Boolean) {
+        prefs.edit().putBoolean(key, value).apply()
+    }
+
+    fun readStringSet(key: String): Set<String> =
+        prefs.getStringSet(key, emptySet())?.toSet() ?: emptySet()
+
+    fun writeStringSet(key: String, value: Set<String>) {
+        prefs.edit().putStringSet(key, value).apply()
+    }
+
+    fun clearAll() {
+        prefs.edit().clear().apply()
+    }
+
+    private companion object {
+        const val STORE_NAME = "fortuna_tiger_store"
+    }
+}
